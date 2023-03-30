@@ -1,0 +1,86 @@
+﻿
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url("car.webp");
+    background-position: center;
+    background-size: ;
+    height: 100vh;
+    width: 100%;
+}
+h1
+{
+    font-size: xx-large;
+   margin-left: 690px;
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+
+    color: red;
+    font-style: Times New Roman;
+
+
+}
+h2
+{
+   margin-left: 560px;
+    margin-top: -90px;
+    width: 400px;
+    height: 200px;
+
+    color: Black;
+    font-style: Times New Roman;
+
+
+}
+
+.input {
+    font-size: large;
+    padding-top: -70px;
+    padding-left: 670px;
+}
+
+
+.password {
+    padding-top: 10px;
+    padding-left: 670px;
+}
+
+.submit-btn {
+    margin-left: 710px;
+    margin-top: 30px;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(95, 69, 69);
+    border-style: solid;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+}
+
+    .submit-btn:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 251, 0);
+        font-size: large;
+        border-radius: 50%;
+        width: 70px;
+        height: 25px;
+    }
+
+.bttn1 {
+    color: rgb(70, 59, 59);
+    font-size: 15px;
+    width: 170px;
+    height: 25px;
+    border-left: 10;
+    border-right: 10;
+    border-top: 10;
+    background: trasparent;
+    border-bottom: solid yellow;
+}

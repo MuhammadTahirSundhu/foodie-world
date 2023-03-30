@@ -1,0 +1,162 @@
+   body{
+       margin: 0;
+       padding: 0;
+       background-image: url(background.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+   }
+   div#container{
+       border: 15px ridge brown;
+       display: inline-block;
+       width: 760px;
+       height: 593px;
+       background-color:rgba(162, 42, 42, .5);
+       display:grid;
+       grid-template-columns:1fr 1fr 1fr ;
+       grid-template-rows: 150px 150px 40px 150px 40px ;
+       grid-gap:15px 10px ;
+       margin: 10px auto;
+       padding: 20px;
+       border-radius: 0px;
+   }
+   div#one{
+       
+       background-image: url(burger.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 14px; 
+   }
+   div#two{
+       
+       background-image: url(frenchfries.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 14px; 
+   }
+   div#three{
+       background-image: url(chips.jpeg);
+       background-repeat:no-repeat;
+       background-size: cover;
+       border-radius: 14px;
+   }
+   div#four{
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+   }
+   div#five{
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+   }
+   div#six{
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+   }
+   div#seven{
+       background-image: url(pizza.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 14px; 
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+   }
+   div#eight{
+       background-image: url(milkshake.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 14px; 
+   }
+   div#nine{
+       background-image: url(sandwhich.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 14px;
+       background-color: aqua;
+   }
+   div#ten{
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+   }
+   div#eleven{
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+    }
+    div#twelve{
+       background-color: burlywood;
+       text-align: center;
+       font-size: 18px;
+       font-weight: bolder;
+       font-style: oblique;
+       border-radius: 12px; 
+    }
+   div#first{
+       background-image: url(food.jpeg);
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       display: inline-block;
+       grid-area: 1/1/2/-1;
+       border-radius: 12px; 
+   }
+   h1{
+       font-weight: bolder;
+       color: white;
+       padding-left: 415px;
+       text-decoration-line:underline ;
+       text-decoration-style:wavy;
+       display: inline-block;  
+       font-size: 40px;  
+   }
+   a{
+      font-style: oblique;
+      font-weight: bolder;
+      border: 1px solid black;
+      font-size: 20px;
+      color: black;
+      text-decoration-line: none;
+      margin-top: 30px;
+      height: 40px;
+      width: 280px;
+      background-color: brown;
+      text-align: center;
+      padding-top:13px ;
+      border-radius: 18px;
+      margin-top: 0px;
+      display: inline-block;
+      margin-left: 0px;
+      grid-area: 7/2/8/3;
+    }
+      h2{
+      color: white;
+      margin-top: 50px;
+      font-style: oblique;
+      font-weight: bolder;
+      text-align: center;
+    }
+    span{
+      font-size: 40px;
+      text-shadow: 2px 2px 4px orangered ;
+    }

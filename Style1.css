@@ -1,0 +1,15 @@
+﻿
+body {
+    background: url("img1.jpeg");
+    background-position: center;
+}
+
+#contact {
+    position:center;
+    background-color: gray: background-position:center;
+    background-size: cover;
+    height: 100vh;
+    width: 200%;
+    margin-left: 400px;
+}
+

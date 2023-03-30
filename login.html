@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">        <!--For login page we make form-->
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="DEVELPOR" content="Tahir sundhu ">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="Style2.css">
+
+</head>
+
+<body>
+    <br>
+    <h1 align="centre">LOGIN </h1>
+    <h2 align="center">Please Login to access us and our resources:</h2> 
+    <div class="background">
+
+        
+        <div class="input">
+            Email:<br>
+           
+            <input class="bttn1" type="text" placeholder="Enter id" id="email" required>
+
+        </div> 
+
+        <div class="password">
+
+           <br>
+           Password*:<br>
+            <input class="bttn1" type="password" placeholder="Enter passwrord" id="password">
+        </div>
+
+        <div class="login">
+
+            <input type="submit" class="submit-btn" onclick="auth()"/> 
+            <br >
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function auth(){
+
+            var email = document.getElementById("email").value;
+
+            var password = document.getElementById("password").value;
+
+            if(email == "i220821@nu.edu.pk" && password == "11111111"){
+
+                window.location.assign("home.html");
+
+                alert("login succesfull.html");
+
+               <!--here if you enter my login id i220821@nu.edu.pk and password 11111111  then you go to home page-->
+                
+            }
+            else{
+
+                alert("Invild Information");
+
+                return;
+            }
+        }
+
+    </script>
+    <center><b>or</b></center>
+    <br>
+           <center> <a href="Sinup.html"><button>Sign up</button></a></center>
+
+</body>
+
+</html>
+

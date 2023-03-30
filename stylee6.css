@@ -1,0 +1,112 @@
+h1{
+    font-size: 50px;
+    margin-top: 60px;
+    text-align: center;
+    color: lightslategray;
+    text-decoration-line: underline;
+    text-decoration-style: wavy ;
+    border-radius: 20%;
+    text-shadow: 3px 3px 4px lightslategray;
+    }
+    input[id="fname"]{
+    margin:12px 0px 30px 0px;
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:lightslategrey;
+    }
+    input[id="lname"]{
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color:lightslategrey;
+    }
+    input[id="first"]{
+    width: 360px;
+    height: 25px;
+    border-radius:15px;
+    background-color: lightslategrey;
+    margin-top: 5px;
+    margin: 5px 8px 10px 0px;
+    }
+    input[id="second"]{
+    width: 350px;
+    height: 25px;
+    border-radius: 15px;
+    background:  lightslategrey;
+    }
+    input[name="city"]{
+    width: 190px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:lightslategrey;
+    margin: 30px 180px 10px 90px;
+    }
+    input[name="region"]{
+    width: 190px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: lightslategrey;
+    }
+    input[name="Zip Code"]{
+    width: 190px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:lightslategrey;
+    margin: 30px 0px 30px 170px;
+    }
+    select{
+    width: 190px;
+    height: 31px;
+    border-radius: 15px;
+    background-color: lightslategrey;
+    }
+    input[id="third"]{
+    width: 350px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:lightslategrey;
+    margin: 5px 8px 0px 0px;
+    }
+    input[id="fourth"]{
+    width: 350px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:lightslategrey;
+    }
+    div#one{
+    margin-left: 430px;
+    }
+    div#two{
+    margin-left: 220px;
+    }
+    body{
+    background-image: url(imgs.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+    div#all{
+    margin-top: 30px;
+    }
+    legend{
+    font-size: 30px;
+    font-weight: bolder;
+    color: gold;
+    }
+    fieldset{
+    border-radius: 0px;
+    border: 10px double gold;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 600px;
+    background-color: rgb(0,0,0,.8);
+    }
+    label{
+    color: gold;
+    font-weight: bolder;
+    }
+    ::placeholder{
+        color: black;
+    }
